@@ -9,12 +9,14 @@ import { InputTextModule } from 'primeng/inputtext';
 
 import { ButtonModule } from 'primeng/button';
 
+import { DataTableModule } from 'primeng/components/datatable/datatable';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule, FormsModule, InputTextModule, ButtonModule
+    BrowserModule, FormsModule, InputTextModule, ButtonModule, DataTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -19,5 +19,18 @@
         <div class="ui-g-12">
             <button pButton type="button" label="Pesquisar" ></button>
         </div>
+        
+    </div>
+</div>
+
+<div class="ui-g">
+    <div class="ui-g-12">
+        <p-dataTable [value]="lancamentos">
+            <p-column field="pessoa" header="Pessoa"></p-column>
+            <p-column field="descricao" header="Descrição"></p-column>
+            <p-column field="vencimento" header="Vencimento" styleClass=".col-data"></p-column>
+            <p-column field="pagamento" header="Pagamento" styleClass=".col-data"></p-column>
+            <p-column field="valor" header="Valor" styleClass=".col-valor"></p-column>
+        </p-dataTable>
     </div>
 </div>

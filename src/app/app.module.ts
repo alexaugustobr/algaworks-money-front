@@ -2,15 +2,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello/hello.component';
-import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
+
+import { FormsModule } from '@angular/forms';
+
+import { InputTextModule } from 'primeng/inputtext';
+
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
   declarations: [
-    AppComponent, HelloComponent, BemVindoComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, FormsModule, InputTextModule, ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

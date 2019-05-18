@@ -1,7 +1,23 @@
-<h1>
-  Welcome to {{title}}!!
-</h1>
-
-<hello></hello>
-
-<app-bem-vindo></app-bem-vindo>
+<div class="container">
+    <div class="ui-g">
+        <div class="ui-g-12">
+            <h1>Lançamentos</h1>
+        </div>
+        
+        <div class="ui-g-12 ui-fluid">
+            <label for="input-descricao">Descrição</label>
+            <input id="input-descricao" type="text" pInputText/>
+        </div>
+    
+        <div class="ui-g-12">
+            <label for="input-vencimento-de" style="display: block;">Vencimento</label>
+            <input id="input-vencimento-de" type="text" pInputText style="width: 95px;"/>
+            <label for="input-vencimento-ate">Até</label>
+            <input id="input-vencimento-ate" type="text" pInputText style="width: 95px;"/>
+        </div>
+    
+        <div class="ui-g-12">
+            <button pButton type="button" label="Pesquisar" ></button>
+        </div>
+    </div>
+</div>
